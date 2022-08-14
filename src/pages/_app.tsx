@@ -10,7 +10,6 @@ const MyApp: AppType = ({ Component, pageProps }) => {
 };
 
 function getBaseUrl() {
-  if (process.browser) return "";
   if(process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`
 
   return `http://localhost:${process.env.PORT ?? 3000}`
@@ -36,5 +35,5 @@ export default withTRPC<AppRouter>({
   /**
    * @link https://trpc.io/docs/ssr
    */
-  ssr: false,
+  ssr: true,
 })(MyApp);

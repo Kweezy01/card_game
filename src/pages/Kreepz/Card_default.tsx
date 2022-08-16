@@ -13,7 +13,7 @@ const Flamer_card = ({
 
   return (
     <li>
-      <section className="cards w-{10} bg-black p-2 m-7 rounded-xl border-2 border-blue-400 duration-500 motion-safe:hover:scale-110">
+      <section className="cards w-{10} bg-black p-2 m-5 rounded-xl border-2 border-blue-400 duration-500 motion-safe:hover:scale-110">
 
         <Svg_router name={name}/>
 

@@ -1,5 +1,6 @@
 import { string } from "zod"
-import * as Kreep from "./Kreep_svgs"
+import Flamer from "./Flamer_svg"
+import Bubbles from "./Bubbles_svg"
 
 type svg_data = {
    name: string
@@ -7,9 +8,9 @@ type svg_data = {
 const Svg_router = ({
    name
 }: svg_data) => {
-   if (name === "Flamer") return <Kreep.default.Flamer />
-   if (name === "Bubbles") return <Kreep.default.Bubbles />
-   if (name === "Shadow") return <Kreep.default.Bubbles />
+   if (name === "Flamer") return <Flamer />
+   if (name === "Bubbles") return <Bubbles />
+   if (name === "Shadow") return <Bubbles />
    return <h1>No charachter found</h1>
 }
 

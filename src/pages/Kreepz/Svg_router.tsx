@@ -11,7 +11,7 @@ const Svg_router = ({
    if (name === "Flamer") return <Flamer />
    if (name === "Bubbles") return <Bubbles />
    if (name === "Shadow") return <Bubbles />
-   return <h1>No charachter found</h1>
+   return <h1 className="text-red-900" >No SVG with name `{name}` found</h1>
 }
 
 export default Svg_router;

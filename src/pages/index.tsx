@@ -20,7 +20,7 @@ const Home = () => {
   }
   return (
     <div className="p-8">
-      <ul>
+      <ul id="list">
         {cards.map(item => {
           return (
             <Card_default key={getKey()} id={item.id} name={item.name} description={item.description} />

@@ -5,7 +5,7 @@ type CardProps = {
   name: string;
   description: string;
 };
-const Flamer_card = ({
+const Card_default = ({
   id,
   name,
   description,
@@ -25,4 +25,4 @@ const Flamer_card = ({
   );
 };
 
-export default Flamer_card;
+export default Card_default;

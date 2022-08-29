@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-import Head from "next/head";
 import { trpc } from "../utils/trpc";
 import Card_default from "./Kreepz/Card_default";
 
@@ -32,3 +30,5 @@ const Home = () => {
 };
 
 export default Home;
+
+

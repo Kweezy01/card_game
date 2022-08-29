@@ -1,6 +1,6 @@
 const Flamer = () => {
    return (
-      <svg className="kreep-svg" viewBox="0 0 71 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 71 74" fill="none" xmlns="http://www.w3.org/2000/svg">
          <g id="Group 1">
             <rect id="Rectangle 1" y="2" width="71" height="72" fill="#6C3636" />
             <path id="Vector 2" d="M17.5 47.5H23.5L52.5 41L47.5 44.5L53.5 45.5L40.5 47.25L35.5 49V61L34 71.5L29.5 64L23.5 71.5V61L17.5 52.5L12.5 57.5L9 61L2 57.5H9L4.5 54H9L14.5 50.5L17.5 47.5Z" fill="#FF7A00" stroke="#FF7A00" />
